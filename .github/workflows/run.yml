@@ -2,10 +2,36 @@ name: Auto Generate and Post YouTube Shorts
 
 on:
   schedule:
-    # US prime time (ET): upload se ~30 min pehle start
-    - cron: '30 15 * * *'   # ~12:00 PM ET
-    - cron: '30 19 * * *'   # ~4:00 PM ET
-    - cron: '30 23 * * *'   # ~8:00 PM ET
+    # 3 uploads/day, but times vary by weekday (real-human pattern)
+    # Har din alag minute + alag hour offset — bot detection avoid
+
+    # MORNING (US ET ~11-12 PM)
+    - cron: '4 15 * * 1'    # Mon ~11:04 AM ET
+    - cron: '12 15 * * 2'   # Tue ~11:12 AM ET
+    - cron: '7 15 * * 3'    # Wed ~11:07 AM ET
+    - cron: '19 15 * * 4'   # Thu ~11:19 AM ET
+    - cron: '33 15 * * 5'   # Fri ~11:33 AM ET
+    - cron: '8 16 * * 6'    # Sat ~12:08 PM ET
+    - cron: '44 16 * * 0'   # Sun ~12:44 PM ET
+
+    # AFTERNOON (US ET ~3-4 PM)
+    - cron: '21 19 * * 1'   # Mon ~3:21 PM ET
+    - cron: '37 19 * * 2'   # Tue ~3:37 PM ET
+    - cron: '9 19 * * 3'    # Wed ~3:09 PM ET
+    - cron: '18 19 * * 4'   # Thu ~3:18 PM ET
+    - cron: '43 19 * * 5'   # Fri ~3:43 PM ET
+    - cron: '26 20 * * 6'   # Sat ~4:26 PM ET
+    - cron: '11 20 * * 0'   # Sun ~4:11 PM ET
+
+    # EVENING (US ET ~7-8 PM)
+    - cron: '52 23 * * 1'   # Mon ~7:52 PM ET
+    - cron: '14 0 * * 2'    # Tue ~8:14 PM ET
+    - cron: '31 23 * * 3'   # Wed ~7:31 PM ET
+    - cron: '47 23 * * 4'   # Thu ~7:47 PM ET
+    - cron: '3 0 * * 5'     # Fri ~8:03 PM ET
+    - cron: '29 0 * * 6'    # Sat ~8:29 PM ET
+    - cron: '16 0 * * 0'    # Sun ~8:16 PM ET
+
   workflow_dispatch:
 
 permissions:
@@ -18,9 +44,25 @@ concurrency:
 jobs:
   build-and-run:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    # random delay (max ~45 min) + build/upload (~10 min) -> keep headroom
+    timeout-minutes: 90
 
     steps:
+    # ---------------------------------------------------------------
+    # Human-like posting time: wait a random 15-44 min (+ random seconds)
+    # after the cron fires, so uploads never land at exact robotic times.
+    # Only for scheduled runs - manual "Run workflow" starts immediately.
+    # NOTE: sleeping uses runner minutes (free on public repos).
+    # ---------------------------------------------------------------
+    - name: Random posting delay (15-45 min)
+      if: github.event_name == 'schedule'
+      run: |
+        MIN_MIN=15
+        SPAN_MIN=30
+        DELAY=$(( (RANDOM % SPAN_MIN + MIN_MIN) * 60 + RANDOM % 60 ))
+        echo "Sleeping $((DELAY / 60)) min $((DELAY % 60)) s before generating/posting..."
+        sleep "$DELAY"
+
     - name: Checkout Code
       uses: actions/checkout@v4
       with:
@@ -54,14 +96,13 @@ jobs:
       run: |
         sudo sed -i 's/rights="none" pattern="@\*"/rights="read|write" pattern="@*"/' /etc/ImageMagick-6/policy.xml || true
         sudo sed -i 's/policy domain="coder" rights="none" pattern="PDF"/policy domain="coder" rights="read|write" pattern="PDF"/' /etc/ImageMagick-6/policy.xml || true
-        convert -version || magick -version || echo "ImageMagick check failed"
 
     - name: Install Python Dependencies
       run: |
         python -m pip install --upgrade pip setuptools wheel
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
 
-    - name: Verify Fonts + ImageMagick
+    - name: Verify Fonts + FFmpeg
       run: |
         echo "=== DejaVu fonts ==="
         ls -la /usr/share/fonts/truetype/dejavu/ || echo "DejaVu fonts not found"
@@ -69,10 +110,13 @@ jobs:
         ls -la /usr/share/fonts/truetype/liberation/ || echo "Liberation fonts not found"
         echo "=== fc-list check ==="
         fc-list | grep -i "dejavu\|liberation" | head -5
-        echo "=== ImageMagick check ==="
-        which convert || which magick || echo "ImageMagick NOT FOUND"
+        echo "=== FFmpeg ==="
+        ffmpeg -version | head -1
+        echo "=== edge-tts version ==="
+        pip show edge-tts | grep Version || echo "edge-tts not installed"
 
     - name: Run Auto-Generation & Auto-Posting Script
+      timeout-minutes: 30
       env:
         GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         PEXELS_API_KEY: ${{ secrets.PEXELS_API_KEY }}
@@ -86,11 +130,24 @@ jobs:
         TIKTOK_CLIENT_KEY: ${{ secrets.TIKTOK_CLIENT_KEY }}
         TIKTOK_CLIENT_SECRET: ${{ secrets.TIKTOK_CLIENT_SECRET }}
         TIKTOK_REFRESH_TOKEN: ${{ secrets.TIKTOK_REFRESH_TOKEN }}
-        WORD_CAPTIONS: '1'     # word-by-word English captions (fonts auto-download)
-        ENABLE_CAPTIONS: '0'   # '1' = on-screen key-phrase captions
-        HOOK_CAPTION: '1'      # big text on the hook scene + twist scene
-        TTS_VOICE: 'en-US-GuyNeural'   # English male voice (alt: en-US-AndrewNeural, en-US-ChristopherNeural)
-        TTS_RATE: '+6%'
+
+        # Captions
+        WORD_CAPTIONS: '1'
+        ENABLE_CAPTIONS: '0'
+        HOOK_CAPTION: '1'
+
+        # Voice chain (Edge-TTS "ElevenLabs Killer" setup)
+        TTS_VOICE_PRIMARY: 'en-US-AndrewMultilingualNeural'
+        TTS_VOICE_FALLBACK1: 'en-US-BrianMultilingualNeural'
+        TTS_VOICE_FALLBACK2: 'en-US-GuyNeural'
+        TTS_VOICE_FALLBACK3: 'en-GB-RyanNeural'
+
+        # Voice speed = 1.15x
+        TTS_RATE: '+15%'
+        TTS_PITCH: '+0Hz'
+
+        # Last scene re-uses the hook footage -> seamless visual loop
+        LOOP_VISUAL: '1'
       run: python main.py
 
     - name: Commit used_topics.json back to repo
