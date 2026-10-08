@@ -439,6 +439,18 @@
       "format": "shocking_fact",
       "title": "Your Brain Literally Washes Itself 🧠",
       "fact": "During deep sleep, brain cells shrink to allow cerebrospinal fluid to wash through brain tissue and flush out toxic waste."
+    },
+    {
+      "date": "2026-10-08T09:01:49",
+      "category": "fire, ice, water and extreme temperatures",
+      "format": "personal_what_if",
+      "hook_style": "contradiction",
+      "loop_style": "mirror_loop",
+      "title": "Can Ice Really Burn? 🔥",
+      "subject": "methane hydrate",
+      "subject_key": "hydrate methane",
+      "fact": "Methane hydrates, also known as 'fire ice', are ice-like structures that contain methane gas and can be ignited to burn.",
+      "fingerprint": "underwater intensely ordinary pressure structur contain hydrate immense methane molecul around freeze frozen hydrat ignite really ignit known water burn"
     }
   ]
 }
