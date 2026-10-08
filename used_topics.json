@@ -451,6 +451,18 @@
       "subject_key": "hydrate methane",
       "fact": "Methane hydrates, also known as 'fire ice', are ice-like structures that contain methane gas and can be ignited to burn.",
       "fingerprint": "underwater intensely ordinary pressure structur contain hydrate immense methane molecul around freeze frozen hydrat ignite really ignit known water burn"
+    },
+    {
+      "date": "2026-10-08T21:06:52",
+      "category": "deep ocean creatures and strange things under the sea",
+      "format": "myth_vs_truth",
+      "hook_style": "direct_question",
+      "loop_style": "answer_loop",
+      "title": "Anglerfish: Secret of the Glowing Lure! 💡",
+      "subject": "anglerfish",
+      "subject_key": "anglerfish",
+      "fact": "The anglerfish's glowing lure is a symbiotic organ containing bioluminescent bacteria, used for hunting, mating, and other survival strategies, not solely produced by the fish itself.",
+      "fingerprint": "bioluminescent symbiotically anglerfish symbiotic bacteria predator strategy survival billion contain darknes strange bright inside itself nobody produc reason secret solely"
     }
   ]
 }
