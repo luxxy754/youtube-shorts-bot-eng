@@ -499,6 +499,42 @@
       "subject_key": "blue flam ijen kawah",
       "fact": "What appears to be blue lava at Indonesia's Kawah Ijen volcano is actually super-hot sulfuric gas igniting and burning with a blue flame as it emerges from cracks.",
       "fingerprint": "indonesia actually electric sulfuric imagine intense volcano appear expect filter nobody secret blast crack emerg fiery flame ignit kawah light"
+    },
+    {
+      "date": "2026-10-09T10:29:03",
+      "category": "ancient ruins, pyramids, temples and lost civilizations",
+      "format": "myth_vs_truth",
+      "hook_style": "why_want",
+      "loop_style": "mirror_loop",
+      "title": "Moai Statues SECRETLY Moved Themselves?! 🗿",
+      "subject": "moai statues",
+      "subject_key": "moai statu",
+      "fact": "The Moai statues of Easter Island were 'walked' upright across the island by ancient Polynesians using ropes and a rocking motion, not by supernatural means.",
+      "fingerprint": "supernatural polynesian magically illusion ingeniou islander secretly themselv ancient enormou recreat upright believ easter expert island method motion really acros"
+    },
+    {
+      "date": "2026-10-09T10:29:43",
+      "category": "sleep, dreams and the brain in everyday life",
+      "format": "top3",
+      "hook_style": "stop_doing",
+      "loop_style": "answer_loop",
+      "title": "Stop Hitting Snooze! ⏰ It Makes You MORE Tired!",
+      "subject": "alarm snooze button",
+      "subject_key": "alarm button snooze",
+      "fact": "Hitting the snooze button repeatedly makes you feel more tired and groggy due to sleep inertia, rather than providing beneficial rest.",
+      "fingerprint": "beneficial repeatedly actually fragment properly inertia quality restart through button confus groggy nobody provid rather snooze someth alarm brain extra"
+    },
+    {
+      "date": "2026-10-09T10:30:28",
+      "category": "food and cooking science (things you can watch sizzle, freeze, burn or rise)",
+      "format": "shocking_fact",
+      "hook_style": "impossible_claim",
+      "loop_style": "lead_in_loop",
+      "title": "Watch Water Instantly Freeze! 🧊",
+      "subject": "supercooled water",
+      "subject_key": "supercool water",
+      "fact": "Water can be supercooled below its freezing point and instantly solidify when disturbed due to the absence of impurities that initiate crystal formation.",
+      "fingerprint": "formation instantly supercool impurity initiate solidify absence crystal disturb exactly colder freeze liquid normal remove anyth below freez latch point"
     }
   ]
 }
