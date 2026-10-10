@@ -559,6 +559,42 @@
       "subject_key": "consumer psychology",
       "fact": "The decoy effect is a cognitive bias where an inferior third option is introduced to make a specific choice appear more attractive.",
       "fingerprint": "attractive psychology cognitive consumer inferior introduc specific suddenly exactly imagine action almost appear better choice coffee effect medium option alway"
+    },
+    {
+      "date": "2026-10-10T06:37:45",
+      "category": "everyday human behaviour: why people do small things in daily life (phone, friends, family, work)",
+      "format": "mystery_explained",
+      "hook_style": "contradiction",
+      "loop_style": "answer_loop",
+      "title": "Can You Spot a Liar? 🤥",
+      "subject": "lie detection",
+      "subject_key": "detection lie",
+      "fact": "Humans are generally poor at detecting lies, often relying on misleading cues, while the brain subconsciously seeks deviations from a person's baseline behavior.",
+      "fingerprint": "subconsciously detection deviation generally accurate baseline behavior however mislead percent barely better cannot detect fidget nervou people person shifty subtle"
+    },
+    {
+      "date": "2026-10-10T06:38:16",
+      "category": "decision making, cognitive biases and why smart people make silly choices",
+      "format": "personal_what_if",
+      "hook_style": "warning",
+      "loop_style": "mirror_loop",
+      "title": "Why You Keep Making Bad Choices 🤔",
+      "subject": "sunk cost fallacy",
+      "subject_key": "cost fallacy sunk",
+      "fact": "The sunk cost fallacy leads people to continue investing in a failing endeavor because of resources already expended, rather than making rational future decisions.",
+      "fingerprint": "investment continue decision endeavor rational terrible already fallacy project resourc bought effort expend future ignore invest people rather ticket choic"
+    },
+    {
+      "date": "2026-10-10T06:40:32",
+      "category": "social psychology: crowds, conformity, persuasion, why we copy others",
+      "format": "myth_vs_truth",
+      "hook_style": "stop_doing",
+      "loop_style": "answer_loop",
+      "title": "Why You Copy Your Friends' Food 🍕",
+      "subject": "social conformity",
+      "subject_key": "conformity social",
+      "fact": "People often subconsciously conform to the choices of others, especially when ordering food, due to social influence and the desire to fit in.",
+      "fingerprint": "subconsciously unconsciously conformity especially influence consciou everyone conform desire friend mimick option people social subtle brain choic often order other"
     }
   ]
 }
