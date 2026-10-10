@@ -607,6 +607,30 @@
       "subject_key": "decision fatigue",
       "fact": "Decision-making is a cognitively demanding process that, when accumulated throughout the day, can lead to 'decision fatigue,' impairing self-control and rational thought.",
       "fingerprint": "cognitively throughout accumulat willpower constant decision rational thousand control exactly fatigue similar thought choice consum demand deplet effort energy harder"
+    },
+    {
+      "date": "2026-10-10T19:15:54",
+      "category": "psychology of first impressions, attraction and body language (only well-established findings)",
+      "format": "mystery_explained",
+      "hook_style": "payoff_promise",
+      "loop_style": "answer_loop",
+      "title": "Why your body mirrors people you like 🤫",
+      "subject": "body language",
+      "subject_key": "body language",
+      "fact": "People subconsciously mimic the body language of those they like or want to connect with, a phenomenon known as the chameleon effect.",
+      "fingerprint": "subconsciously automatically subconsciou connection expression phenomenon chameleon language powerful connect exactly posture someone without effect facial gestur mirror people random"
+    },
+    {
+      "date": "2026-10-10T19:20:08",
+      "category": "memory: why we forget, false memories, why we remember some things forever",
+      "format": "personal_what_if",
+      "hook_style": "you_scenario",
+      "loop_style": "lead_in_loop",
+      "title": "🤯 Your Brain Actively Rewrites Your Memories!",
+      "subject": "memory distortion",
+      "subject_key": "distortion memory",
+      "fact": "Your memories are easily altered by new information you receive, even if that information is incorrect.",
+      "fingerprint": "information distortion incorrect actively describ receive someone totally version detail easily forget memory recall rewrit alter brain chang event often"
     }
   ]
 }
