@@ -631,6 +631,18 @@
       "subject_key": "distortion memory",
       "fact": "Your memories are easily altered by new information you receive, even if that information is incorrect.",
       "fingerprint": "information distortion incorrect actively describ receive someone totally version detail easily forget memory recall rewrit alter brain chang event often"
+    },
+    {
+      "date": "2026-10-10T22:58:41",
+      "category": "emotions, mood, stress and how people react to them",
+      "format": "myth_vs_truth",
+      "hook_style": "impossible_claim",
+      "loop_style": "answer_loop",
+      "title": "Why Venting Anger Makes You Angrier! 😠",
+      "subject": "anger management",
+      "subject_key": "anger management",
+      "fact": "Aggressively expressing anger often intensifies the emotion and reinforces negative neural pathways, making individuals feel even angrier rather than providing release.",
+      "fingerprint": "aggressively aggressive individual management intensify actually negative reinforc research angrier emotion express feeling mistake pathway release thought trigger belief common"
     }
   ]
 }
