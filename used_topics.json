@@ -655,6 +655,42 @@
       "subject_key": "multitask",
       "fact": "True multitasking is impossible for the human brain; it merely rapidly switches between tasks, degrading performance and memory.",
       "fingerprint": "performance impossible multitask actually remember between exactly rapidly degrad energy likely memory merely switch brain doesn human shock thing truth"
+    },
+    {
+      "date": "2026-10-14T18:38:48",
+      "category": "childhood, learning and curiosity: how people learn and why praise/habits stick",
+      "format": "shocking_fact",
+      "hook_style": "contradiction",
+      "loop_style": "mirror_loop",
+      "title": "Praising Kids Wrong? 🤯",
+      "subject": "praise and learning",
+      "subject_key": "learn praise",
+      "fact": "Praising a child's intelligence can lead them to believe their abilities are fixed, making them less motivated to tackle challenges and more fearful of failure. Conversely, praising effort fosters a growth mindset, encouraging resilience and a love for learning.",
+      "fingerprint": "intelligence conversely researcher resilience actually challeng encourag practice ability believe failure fearful mindset motivat surpris dumber effort foster growth harder"
+    },
+    {
+      "date": "2026-10-14T18:42:35",
+      "category": "sleep, dreams and tiredness: what they do to mood and behaviour",
+      "format": "personal_what_if",
+      "hook_style": "number_shock",
+      "loop_style": "lead_in_loop",
+      "title": "Your Tired Brain Misreads Emotions! 🤯",
+      "subject": "sleep deprivation",
+      "subject_key": "deprivation sleep",
+      "fact": "Sleep deprivation significantly impairs your ability to accurately read other people's emotions and express your own, leading to increased misinterpretations and perceived negativity.",
+      "fingerprint": "misinterpretation significantly deprivation accurately negativity negative struggle ability default emotion exactly feeling increas misread perceiv struggl expres impair people subtle"
+    },
+    {
+      "date": "2026-10-14T18:45:03",
+      "category": "friendship, relationships, texting, jealousy and loneliness (well-established findings only)",
+      "format": "myth_vs_truth",
+      "hook_style": "payoff_promise",
+      "loop_style": "mirror_loop",
+      "title": "Why Your Brain Tricks Your Social Perception 🤔",
+      "subject": "social perception",
+      "subject_key": "perception social",
+      "fact": "Humans consistently underestimate how much others like them after social interactions, a phenomenon known as the 'liking gap'.",
+      "fingerprint": "underestimate consistently interaction perception phenomenon actually unexpect awkward assume moment people replay social annoy brain found human known often other"
     }
   ]
 }
