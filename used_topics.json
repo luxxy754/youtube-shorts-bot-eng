@@ -691,6 +691,18 @@
       "subject_key": "perception social",
       "fact": "Humans consistently underestimate how much others like them after social interactions, a phenomenon known as the 'liking gap'.",
       "fingerprint": "underestimate consistently interaction perception phenomenon actually unexpect awkward assume moment people replay social annoy brain found human known often other"
+    },
+    {
+      "date": "2026-10-16T01:49:58",
+      "category": "everyday human behaviour: why people do small things in daily life (phone, friends, family, work)",
+      "format": "shocking_fact",
+      "hook_style": "stop_doing",
+      "loop_style": "lead_in_loop",
+      "title": "Stop Telling Everyone Your Big Plans! 🤫",
+      "subject": "goal motivation",
+      "subject_key": "goal motivation",
+      "fact": "Announcing your goals prematurely can trick your brain into feeling a sense of accomplishment, reducing your drive to actually achieve them.",
+      "fingerprint": "accomplishment prematurely completion excitement motivation validation actually everyone achieve already announc exactly problem achiev provid brain drive false reduc sense"
     }
   ]
 }
