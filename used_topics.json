@@ -703,6 +703,18 @@
       "subject_key": "goal motivation",
       "fact": "Announcing your goals prematurely can trick your brain into feeling a sense of accomplishment, reducing your drive to actually achieve them.",
       "fingerprint": "accomplishment prematurely completion excitement motivation validation actually everyone achieve already announc exactly problem achiev provid brain drive false reduc sense"
+    },
+    {
+      "date": "2026-10-16T18:32:58",
+      "category": "social psychology: crowds, conformity, persuasion, why we copy others",
+      "format": "top3",
+      "hook_style": "warning",
+      "loop_style": "mirror_loop",
+      "title": "Never Ignore This Crowd Behavior! 🤯",
+      "subject": "bystander effect",
+      "subject_key": "bystander effect",
+      "fact": "The bystander effect describes how individuals are less likely to offer help to a victim when other people are present, assuming someone else will intervene.",
+      "fingerprint": "individual bystander emergency intervene behavior dangerou everyone hesitate inaction describ paralyz present someone strange effect ignore larger likely people second"
     }
   ]
 }
