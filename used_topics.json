@@ -715,6 +715,18 @@
       "subject_key": "bystander effect",
       "fact": "The bystander effect describes how individuals are less likely to offer help to a victim when other people are present, assuming someone else will intervene.",
       "fingerprint": "individual bystander emergency intervene behavior dangerou everyone hesitate inaction describ paralyz present someone strange effect ignore larger likely people second"
+    },
+    {
+      "date": "2026-10-17T22:18:28",
+      "category": "decision making, cognitive biases and why smart people make silly choices",
+      "format": "mystery_explained",
+      "hook_style": "impossible_claim",
+      "loop_style": "lead_in_loop",
+      "title": "Your Brain Filters Reality? Discover Confirmation Bias",
+      "subject": "confirmation bias",
+      "subject_key": "bia confirmation",
+      "fact": "Confirmation bias is the tendency to search for, interpret, favor, and recall information in a way that confirms or strengthens one's prior personal beliefs or hypotheses.",
+      "fingerprint": "contradictory unconsciously confirmation information strengthen interpret discover hypothes personal tendency already believe confirm exactly protect reality belief change filter notice"
     }
   ]
 }
