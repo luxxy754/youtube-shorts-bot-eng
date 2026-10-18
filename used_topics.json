@@ -727,6 +727,42 @@
       "subject_key": "bia confirmation",
       "fact": "Confirmation bias is the tendency to search for, interpret, favor, and recall information in a way that confirms or strengthens one's prior personal beliefs or hypotheses.",
       "fingerprint": "contradictory unconsciously confirmation information strengthen interpret discover hypothes personal tendency already believe confirm exactly protect reality belief change filter notice"
+    },
+    {
+      "date": "2026-10-18T17:45:46",
+      "category": "psychology of habits, procrastination, motivation and willpower",
+      "format": "shocking_fact",
+      "hook_style": "payoff_promise",
+      "loop_style": "mirror_loop",
+      "title": "Why Your Brain WON'T Let You Relax 🧠",
+      "subject": "zeigarnik effect",
+      "subject_key": "effect zeigarnik",
+      "fact": "The Zeigarnik effect describes the tendency for people to remember unfinished or interrupted tasks better than completed ones, causing the mind to keep them active.",
+      "fingerprint": "psychologist incomplete interrupt zeigarnik actively remember tendency unfinish complet describ thought active better bother effect memory people unwind brain never"
+    },
+    {
+      "date": "2026-10-18T17:47:18",
+      "category": "memory: why we forget, false memories, why we remember some things forever",
+      "format": "personal_what_if",
+      "hook_style": "number_shock",
+      "loop_style": "answer_loop",
+      "title": "Why Your Brain FORGETS So Fast! 🧠",
+      "subject": "context dependent memory",
+      "subject_key": "context dependent memory",
+      "fact": "Context-dependent memory means our brain links memories to the environment where they were formed, making recall harder when the surroundings change.",
+      "fingerprint": "environment surrounding dependent remember context percent quietly change forget harder memory recall vanish brain chang delet learn study think tough"
+    },
+    {
+      "date": "2026-10-18T17:47:53",
+      "category": "focus and attention: why the mind wanders, multitasking, distraction",
+      "format": "top3",
+      "hook_style": "direct_question",
+      "loop_style": "lead_in_loop",
+      "title": "Why Your Brain Lags When You Switch Tasks 🤔",
+      "subject": "attention residue",
+      "subject_key": "attention residue",
+      "fact": "When you switch tasks, your brain retains 'attention residue' from the previous task, which reduces your focus and efficiency on the new task.",
+      "fingerprint": "significantly efficiency attention instantly exactly previou residue struggl thought linger retain switch brain reduc steal cost focu hold mind onto"
     }
   ]
 }
