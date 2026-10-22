@@ -811,6 +811,18 @@
       "subject_key": "feel watch",
       "fact": "Humans possess a highly sensitive neural mechanism for detecting direct gaze, an evolutionary trait that can sometimes lead to the subjective feeling of being watched even in the absence of an actual observer.",
       "fingerprint": "evolutionary subjective mechanism sensation sensitive actually observer survival absence sometim actual detect direct highly neural posses reason social spooky alone"
+    },
+    {
+      "date": "2026-10-22T22:58:02",
+      "category": "emotions, mood, stress and how people react to them",
+      "format": "myth_vs_truth",
+      "hook_style": "you_scenario",
+      "loop_style": "lead_in_loop",
+      "title": "🤯 Your Brain's Wild Emotion Trick!",
+      "subject": "misattribution of arousal",
+      "subject_key": "arousal misattribution",
+      "fact": "Your brain can misinterpret physical arousal, like a racing heart, as an intense emotion, even if the real cause is something else.",
+      "fingerprint": "misattribution misinterpret emotional actually mislabel physical anxiety arousal emotion intense quickly coffee energy happen reason search someth sudden anger brain"
     }
   ]
 }
