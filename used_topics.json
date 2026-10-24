@@ -823,6 +823,18 @@
       "subject_key": "arousal misattribution",
       "fact": "Your brain can misinterpret physical arousal, like a racing heart, as an intense emotion, even if the real cause is something else.",
       "fingerprint": "misattribution misinterpret emotional actually mislabel physical anxiety arousal emotion intense quickly coffee energy happen reason search someth sudden anger brain"
+    },
+    {
+      "date": "2026-10-24T21:08:50",
+      "category": "social psychology: crowds, conformity, persuasion, why we copy others",
+      "format": "top3",
+      "hook_style": "contradiction",
+      "loop_style": "answer_loop",
+      "title": "Can Your Eyes Deceive You? 🤯",
+      "subject": "perceptual influence",
+      "subject_key": "influence perceptual",
+      "fact": "People often doubt their own clear perception and adopt a group's incorrect judgment, even for simple, observable facts.",
+      "fingerprint": "observable perception perceptual genuinely incorrect influence obviously judgment pressure deceive answer people simple adopt agree clear doubt group often other"
     }
   ]
 }
