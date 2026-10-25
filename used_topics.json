@@ -835,6 +835,18 @@
       "subject_key": "influence perceptual",
       "fact": "People often doubt their own clear perception and adopt a group's incorrect judgment, even for simple, observable facts.",
       "fingerprint": "observable perception perceptual genuinely incorrect influence obviously judgment pressure deceive answer people simple adopt agree clear doubt group often other"
+    },
+    {
+      "date": "2026-10-25T17:44:50",
+      "category": "decision making, cognitive biases and why smart people make silly choices",
+      "format": "personal_what_if",
+      "hook_style": "warning",
+      "loop_style": "lead_in_loop",
+      "title": "🧠 NEVER Let This Number Trick Your Brain!",
+      "subject": "anchoring bias",
+      "subject_key": "anchor bia",
+      "fact": "Your brain tends to rely too heavily on the first piece of information it receives, called an 'anchor', when making decisions, even if that information is irrelevant.",
+      "fingerprint": "information irrelevant powerfully influence decision shortcut struggle exactly heavily initial anchor ignore mental number receiv subtly brain choic first fixat"
     }
   ]
 }
