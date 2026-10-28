@@ -847,6 +847,30 @@
       "subject_key": "anchor bia",
       "fact": "Your brain tends to rely too heavily on the first piece of information it receives, called an 'anchor', when making decisions, even if that information is irrelevant.",
       "fingerprint": "information irrelevant powerfully influence decision shortcut struggle exactly heavily initial anchor ignore mental number receiv subtly brain choic first fixat"
+    },
+    {
+      "date": "2026-10-27T23:54:46",
+      "category": "friendship, relationships, texting, jealousy and loneliness (well-established findings only)",
+      "format": "myth_vs_truth",
+      "hook_style": "stop_doing",
+      "loop_style": "answer_loop",
+      "title": "Stop Double Texting Your Crush! 😬",
+      "subject": "texting psychology",
+      "subject_key": "psychology text",
+      "fact": "Constantly being available through texting can subconsciously lower your perceived value and desirability in relationships, due to the scarcity principle.",
+      "fingerprint": "subconsciously availability desirability relationship constantly psychology available principle actually constant increase interest scarcity perceiv through double someth alway being brain"
+    },
+    {
+      "date": "2026-10-27T23:57:54",
+      "category": "memory: why we forget, false memories, why we remember some things forever",
+      "format": "shocking_fact",
+      "hook_style": "impossible_claim",
+      "loop_style": "lead_in_loop",
+      "title": "Your Brain STEALS Your Ideas?! 🧠 Psychology Facts",
+      "subject": "memory errors",
+      "subject_key": "error memory",
+      "fact": "Your brain sometimes genuinely forgets the source of an idea or memory, making you believe it originated within your own mind, a phenomenon known as cryptomnesia.",
+      "fingerprint": "cryptomnesia phenomenon plagiarism psychology unconsciou genuinely somewhere actually original originat secretly believe exactly explain sometim believ common forget glitch memory"
     }
   ]
 }
