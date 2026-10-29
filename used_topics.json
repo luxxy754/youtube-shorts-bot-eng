@@ -871,6 +871,30 @@
       "subject_key": "error memory",
       "fact": "Your brain sometimes genuinely forgets the source of an idea or memory, making you believe it originated within your own mind, a phenomenon known as cryptomnesia.",
       "fingerprint": "cryptomnesia phenomenon plagiarism psychology unconsciou genuinely somewhere actually original originat secretly believe exactly explain sometim believ common forget glitch memory"
+    },
+    {
+      "date": "2026-10-29T00:35:15",
+      "category": "childhood, learning and curiosity: how people learn and why praise/habits stick",
+      "format": "top3",
+      "hook_style": "contradiction",
+      "loop_style": "mirror_loop",
+      "title": "Rewards Ruin Habits?! 🤯",
+      "subject": "intrinsic motivation",
+      "subject_key": "intrinsic motivation",
+      "fact": "External rewards can undermine intrinsic motivation for activities someone previously enjoyed, leading them to associate the activity solely with the reward.",
+      "fingerprint": "motivation previously associate intrinsic undermine activity actually external interest someone strange reward solely brain doing enjoy habit shift start stick"
+    },
+    {
+      "date": "2026-10-29T00:40:02",
+      "category": "focus and attention: why the mind wanders, multitasking, distraction",
+      "format": "personal_what_if",
+      "hook_style": "direct_question",
+      "loop_style": "lead_in_loop",
+      "title": "Why Your Brain Misses Obvious Stuff 🧠",
+      "subject": "selective attention",
+      "subject_key": "attention selective",
+      "fact": "Your brain actively filters out visual information it deems irrelevant to save processing power, leading you to miss obvious changes in your environment.",
+      "fingerprint": "distraction environment information unimportant irrelevant attention literally prioritiz selective actively directly process detail filter obviou visual brain chang delet incom"
     }
   ]
 }
