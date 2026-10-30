@@ -895,6 +895,30 @@
       "subject_key": "attention selective",
       "fact": "Your brain actively filters out visual information it deems irrelevant to save processing power, leading you to miss obvious changes in your environment.",
       "fingerprint": "distraction environment information unimportant irrelevant attention literally prioritiz selective actively directly process detail filter obviou visual brain chang delet incom"
+    },
+    {
+      "date": "2026-10-30T00:35:52",
+      "category": "sleep, dreams and tiredness: what they do to mood and behaviour",
+      "format": "myth_vs_truth",
+      "hook_style": "payoff_promise",
+      "loop_style": "answer_loop",
+      "title": "Why tiredness makes you super grumpy 😠",
+      "subject": "tiredness and mood",
+      "subject_key": "mood tirednes",
+      "fact": "Tiredness reduces activity in your brain's prefrontal cortex, which is responsible for emotional regulation, leading to increased irritability and emotional reactivity.",
+      "fingerprint": "irritability responsible personally prefrontal reactivity regulation emotional activity specific tirednes control increas center cortex grumpy nobody reason someth weaken blame"
+    },
+    {
+      "date": "2026-10-30T00:38:08",
+      "category": "psychology of first impressions, attraction and body language (only well-established findings)",
+      "format": "shocking_fact",
+      "hook_style": "warning",
+      "loop_style": "mirror_loop",
+      "title": "Your Eyes Reveal Your CRUSH! 👁️",
+      "subject": "pupil dilation",
+      "subject_key": "dilation pupil",
+      "fact": "When you are attracted to someone, your pupils subconsciously dilate, and this subtle non-verbal cue is interpreted by others as a sign of attraction and openness, making you seem more appealing.",
+      "fingerprint": "subconsciously availability attraction attractive instantly interpret naturally dilation interest attract feeling opennes someone appeal betray dilate happen ignore notice people"
     }
   ]
 }
