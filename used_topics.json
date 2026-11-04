@@ -955,6 +955,18 @@
       "subject_key": "aversion los",
       "fact": "Loss aversion is a cognitive bias where the psychological impact of losing something is twice as strong as the pleasure of gaining an equivalent thing, influencing decision-making.",
       "fingerprint": "psychological psychologist equivalent investment cognitive aversion decision influenc pleasure powerful stubborn exactly broken impact someth strong being brain cling thing"
+    },
+    {
+      "date": "2026-11-04T01:48:25",
+      "category": "everyday human behaviour: why people do small things in daily life (phone, friends, family, work)",
+      "format": "top3",
+      "hook_style": "number_shock",
+      "loop_style": "answer_loop",
+      "title": "Why You Overvalue Your Own Stuff! 🤔",
+      "subject": "endowment effect",
+      "subject_key": "effect endowment",
+      "fact": "The Endowment Effect causes people to value items they own significantly more than identical items they don't, often demanding triple the price to sell them compared to what they'd pay to buy them.",
+      "fingerprint": "significantly endowment identical overvalue overvalu valuable better compar demand effect people triple exact often price stuff thing three value weird"
     }
   ]
 }
