@@ -967,6 +967,42 @@
       "subject_key": "effect endowment",
       "fact": "The Endowment Effect causes people to value items they own significantly more than identical items they don't, often demanding triple the price to sell them compared to what they'd pay to buy them.",
       "fingerprint": "significantly endowment identical overvalue overvalu valuable better compar demand effect people triple exact often price stuff thing three value weird"
+    },
+    {
+      "date": "2026-11-04T21:04:40",
+      "category": "emotions, mood, stress and how people react to them",
+      "format": "myth_vs_truth",
+      "hook_style": "contradiction",
+      "loop_style": "mirror_loop",
+      "title": "Your Feelings Aren't Automatic! 🤔 Control Your Mood",
+      "subject": "emotional regulation",
+      "subject_key": "emotional regulation",
+      "fact": "Your brain doesn't just passively experience emotions; you can actively change your interpretation of a situation to alter your emotional response.",
+      "fingerprint": "interpretation uncontrollable experience regulation automatic emotional experienc literally passively situation actively reaction response believe control emotion feeling change happen people"
+    },
+    {
+      "date": "2026-11-04T21:07:24",
+      "category": "childhood, learning and curiosity: how people learn and why praise/habits stick",
+      "format": "shocking_fact",
+      "hook_style": "warning",
+      "loop_style": "answer_loop",
+      "title": "The Secret Reason Old Habits Are Hard To Break 🧠",
+      "subject": "habit unlearning",
+      "subject_key": "habit unlearn",
+      "fact": "Your brain actively resists changing deeply ingrained patterns and habits, especially those formed early in life, because building new neural pathways costs more energy than using existing, even inefficient, ones.",
+      "fingerprint": "inefficient especially childhood willpower actively weirdest ingrain pathway pattern unlearn change deeply energy neural prefer reason repeat resist secret brain"
+    },
+    {
+      "date": "2026-11-04T21:09:12",
+      "category": "focus and attention: why the mind wanders, multitasking, distraction",
+      "format": "mystery_explained",
+      "hook_style": "direct_question",
+      "loop_style": "lead_in_loop",
+      "title": "Why Your Brain Gets Distracted Mid-Task 🤔",
+      "subject": "mind wandering",
+      "subject_key": "mind wander",
+      "fact": "The brain's default mode network activates during periods of unfocused attention, processing internal information like memories, future plans, and self-reflection, leading to mind-wandering.",
+      "fingerprint": "unproductive information externally reflection attention distract internal suddenly tomorrow activat default network process unfocus future inward memory period random wander"
     }
   ]
 }
