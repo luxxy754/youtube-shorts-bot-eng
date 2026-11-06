@@ -1003,6 +1003,18 @@
       "subject_key": "mind wander",
       "fact": "The brain's default mode network activates during periods of unfocused attention, processing internal information like memories, future plans, and self-reflection, leading to mind-wandering.",
       "fingerprint": "unproductive information externally reflection attention distract internal suddenly tomorrow activat default network process unfocus future inward memory period random wander"
+    },
+    {
+      "date": "2026-11-06T01:40:09",
+      "category": "memory: why we forget, false memories, why we remember some things forever",
+      "format": "top3",
+      "hook_style": "impossible_claim",
+      "loop_style": "answer_loop",
+      "title": "Your Brain Changes Your Memories! 🤯",
+      "subject": "memory reconstruction",
+      "subject_key": "memory reconstruction",
+      "fact": "Every time a memory is recalled, the brain actively reconstructs and alters it, rather than retrieving a fixed record, leading to the malleability of even long-held memories.",
+      "fingerprint": "reconstruction malleability reconstruct actively remember perfect retriev memory oldest rather recall record alter anyth brain chang doesn event story truly"
     }
   ]
 }
